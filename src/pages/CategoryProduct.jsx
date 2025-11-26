@@ -28,7 +28,7 @@ const CategoryProduct = () => {
   useEffect(() => {
     getFilterData()
     window.scrollTo(0, 0)
-  }, [category]) // category added so component updates when URL changes
+  }, [category]) 
 
   return (
     <div>
